@@ -20,8 +20,8 @@ This project collects all open-source English pronunciation dictionaries and/or 
  * Download:  [Releases](https://github.com/open-dict-data/ipa-dict/releases)
  * Website (English lookup): <https://open-dict-data.github.io/ipa-lookup/en/>
  * License: MIT
- * Entries: en_US: **125,927** and en_UK: **65,119** 
- * **Status**: This lexicon is practically [unusalble](2-open-dict/README.md).
+ * Entries: en\_US: **125,927** and en\_UK: **65,119** 
+ * **Status**: This lexicon is practically [unusable](2-open-dict/README.md).
 
 ### 3. [ISLEDict](3-isledict/README.md)
 
@@ -29,16 +29,16 @@ This project collects all open-source English pronunciation dictionaries and/or 
  * GitHub project: [uiuc-sst/g2ps](https://github.com/uiuc-sst/g2ps)
  * License: MIT
  * Entries: **282,842** (file _ISLEdict.txt_)
- * **Status**: This lexicon is practically [unusalble](3-isledict/README.md)
+ * **Status**: This lexicon is practically [unusable](3-isledict/README.md)
 
-### 4. [CMUDict](cmudict/README.md):
+### 4. [CMUDict](4-cmudict/README.md):
 
  * Website: [cmusphinx.github.io](https://cmusphinx.github.io)
  * GitHub project: [cmusphinx/cmudict](https://github.com/cmusphinx/cmudict) 
  * License: [Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.](cmudict/LICENSE)
  * Entries: **135,167**
 
-### 5. [CMUDict v0.7b](cmudict-07b/README.md)
+### 5. [CMUDict v0.7b](5-cmudict-07b/README.md)
 
  * Website: <http://www.speech.cs.cmu.edu/cgi-bin/cmudict>
  * GitHub project: [](https://github.com/Alexir/CMUdict.git)
@@ -59,7 +59,7 @@ This project collects all open-source English pronunciation dictionaries and/or 
 
 1. [Wiktionary.org](https://www.wiktionary.org)
 2. [Moby project](https://en.wikipedia.org/wiki/Moby_Project)
- - Created by Grady Ward, donated to Project Gutenbert on May 1, 2001.
+ - Created by Grady Ward, donated to Project Gutenberg on May 1, 2001.
  - [Project Gutenberg: Wordlists](https://gutenberg.org/files/3201/)
  - free phonetic database, with 177,267 words and corresponding pronunciations
 3. CMUdict on [Carnegie Mellon University](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) website (version 0.7b) (_links to Github [Alexir/CMUdict](https://github.com/Alexir/CMUdict/blob/master/cmudict-0.7b) by Alex Rudnicky - see \#5 above_)
