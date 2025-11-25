@@ -23,7 +23,7 @@ This project collects all open-source English pronunciation dictionaries and/or 
  * Entries: en\_US: **125,927** and en\_UK: **65,119** 
  * **Status**: This lexicon is practically [unusable](2-open-dict/README.md).
 
-### 3. [ISLEDict](3-isledict/README.md)
+### 3. [ISLEDict](3-ISLEDict/README.md)
 
  * Website: [Statistical Speech Technology Group](https://speechtechnology.web.illinois.edu/)
  * GitHub project: [uiuc-sst/g2ps](https://github.com/uiuc-sst/g2ps)
