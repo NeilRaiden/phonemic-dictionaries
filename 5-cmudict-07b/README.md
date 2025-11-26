@@ -87,6 +87,16 @@ EXBROKERS  EH1 K S B R OW1 K ER0 Z
 - there is no distinction between ⟨́́ɝ⟩ and ⟨ɚ⟩ (shortened ⟨ɜːr⟩ and ⟨ər⟩) — although these can be derived from the accent mark: ER0 ⟨ɚ⟩ and ER1 or ER2 ⟨ɝ⟩ (example: “BURGER  B ER1 G ER0” - /bɜːrɡər/)
 - the only distinction between _schwa_ ⟨ə⟩ and _strut_ ⟨ʌ⟩ is the accent mark: AH0 for ⟨ə⟩ and AH for ⟨ʌ⟩.
 - this lexicon contains a very huge amount of non-English words and names (German, Russian, etc).
+- some words are differentiated by stress — however, there is part-of-speech indicator, for example: 
+    - PR'OGRESS /prˈɒɡrˌɛs/ (_noun_), 
+    - PROGR'ESS /prəɡrˈɛs/ (_verb_). 
+    - PROGR'ESS /prɔʊɡrˈɛs/ (_verb_). 
+
+```
+PROGRESS  P R AA1 G R EH2 S
+PROGRESS(1)  P R AH0 G R EH1 S
+PROGRESS(2)  P R OW0 G R EH1 S
+```
 
 -----
 
