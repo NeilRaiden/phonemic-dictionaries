@@ -51,12 +51,6 @@ All submissions will be reviewed and approved by the current maintainer, Alex Ru
 
 -----
 
-## Notes
-
-- acronyms are in a separate file `acronym-0.7b`
-
------
-
 ## Format
 
  * dictrionary split into two files:
