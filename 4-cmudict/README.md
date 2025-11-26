@@ -30,6 +30,7 @@ If you add words to or correct words in your version of this dictionary, we woul
 The file `cmudict.dict` is a simple text file with one word per line:
  - English word in first column
  - pronunciation split into separate phonemes
+ - it uses ARPABET notation (see below)
 
 ```
 example IH0 G Z AE1 M P AH0 L
@@ -44,61 +45,65 @@ exboyfriend EH2 K S B OY1 F R EH2 N D
 exbroker EH1 K S B R OW1 K ER0
 ```
 
-Phonemes: There are 39 phonemes, as shown below:
-
-Phoneme Example Translation    Phoneme Example Translation
-------- ------- -----------    ------- ------- -----------
-AA      odd     AA D           AE      at      AE T
-AH      hut     HH AH T        AO      ought   AO T
-AW      cow     K AW           AY      hide    HH AY D
-B       be      B IY           CH      cheese  CH IY Z
-D       dee     D IY           DH      thee    DH IY
-EH      Ed      EH D           ER      hurt    HH ER T
-EY      ate     EY T           F       fee     F IY
-G       green   G R IY N       HH      he      HH IY
-IH      it      IH T           IY      eat     IY T
-JH      gee     JH IY          K       key     K IY
-L       lee     L IY           M       me      M IY
-N       knee    N IY           NG      ping    P IH NG
-OW      oat     OW T           OY      toy     T OY
-P       pee     P IY           R       read    R IY D
-S       sea     S IY           SH      she     SH IY
-T       tea     T IY           TH      theta   TH EY T AH
-UH      hood    HH UH D        UW      two     T UW
-V       vee     V IY           W       we      W IY
-Y       yield   Y IY L D       Z       zee     Z IY
-ZH      seizure S IY ZH ER
-"""
+Notes: 
+- this lexicon uses only 39 basic phonemes in ARPABET notation.
+- accent marks are represented by digits (0,1,2) placed **after the vowel** of an accented syllable. In English accent can be placed also on consontants (like f, v, s, z) so the common approach in phonemic/phonetic notations is to place the accent mark **before the syllable**. So this would need to be corrected.
+- there is no distinction between ⟨ɑ⟩ and ⟨ɒ⟩ (the same vowel for _odd_, _car_, _palm_)  — so this dictionary is for **General American (GA)**, which is spoken by only SOME Americans, but not by ALL Americans.
+- there is no distinction between ⟨́́ɝ⟩ and ⟨ɚ⟩ (shortened ⟨ɜːr⟩ and ⟨ər⟩) — although these can be derived from the accent mark: ER0 ⟨ɚ⟩ and ER1 or ER2 ⟨ɝ⟩ (example: “murder M ER1 D ER0”)
+- the only distinction between _schwa_ ⟨ə⟩ and _strut_ ⟨ʌ⟩ is the accent mark: AH0 for ⟨ə⟩ and AH for ⟨ʌ⟩.
+- this lexicon contains a very huge amount of non-English words and names (German, Russian, etc).
 
 -----
 
-# ARPABET
+## ARPABET notation  
 
 * _source: <https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary>_
 * [Respelling key](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")
 * [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet "International Phonetic Alphabet")
 
 
+### Stress
+
+| AB  | Description      |
+| --- | ---------------- |
+| 0   | No stress        |
+| 1   | Primary stress   |
+| 2   | Secondary stress |
+
+
 ## Vowels:
 
-| no  | ARPABET | Respelling | IPA  | phoneme                               | Example              |
-|:---:| ------- | ---------- | ---- | ------------------------------------- | -------------------- |
-| 1   | `AA`    | *ah*       | ɑ    | Open central unrounded vowel          | **o**dd              |
-| 2   | `AE`    | *a*        | æ    | Near-open front unrounded vowel       | **a**t               |
-| 3   | `AH0`   | *ə*        | ə    | Mid central vowel                     | **a**bout            |
-| 4   | `AH`    | *uh*       | ʌ    | Open-mid back unrounded vowel         | h**u**t              |
-| 5   | `AO`    | *aw*       | ɔ    | Open-mid back rounded vowel           | **ou**ght, st**o**ry |
-| 6   | `AW`    | *ow*       | aʊ   | diphtong                              | c**ow**              |
-| 7   | `AY`    | *eye*      | aɪ   | diphtong                              | h**i**de             |
-| 8   | `EH`    | *eh*       | ɛ    | Open-mid front unrounded vowel        | **E**d               |
-| 9   | `ER`    | *ur*, *ər* | ɝ, ɚ | R-colored vowel                       | h**ur**t             |
-| 10  | `EY`    | *ay*       | eɪ   | diphtong                              | **a**te              |
-| 11  | `IH`    | *i*, *ih*  | ɪ    | Near-close near-front unrounded vowel | **i**t               |
-| 12  | `IY`    | *ee*       | i    | Close front unrounded vowel           | **ea**t              |
-| 13  | `OW`    | *oh*       | oʊ   | diphtong                              | **oa**t              |
-| 14  | `OY`    | *oy*       | ɔɪ   | diphtong                              | t**oy**              |
-| 15  | `UH`    | *uu*       | ʊ    | Near-close near-back rounded vowel    | h**oo**d             |
-| 16  | `UW`    | *oo*       | u    | Close back rounded vowel              | t**wo**              |
+| no  | ARPABET        | Respelling | IPA | phoneme                               | Examples                   |
+|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------------- |
+|  1  | `AA`           | *ah*       | ɑ   | Open central unrounded vowel          | **o**dd, c**a**r, p**a**lm |
+|  2  | `AE`           | *a*        | æ   | Near-open front unrounded vowel       | **a**t                     |
+|  3  | `AH0`          | *ə*        | ə   | Mid central vowel                     | **a**bout                  |
+|  4  | `AH`           | *uh*       | ʌ   | Open-mid back unrounded vowel         | h**u**t                    |
+|  5  | `AO`           | *aw*       | ɔ   | Open-mid back rounded vowel           | **ou**ght, st**o**ry       |
+|  6  | `EH`           | *eh*       | ɛ   | Open-mid front unrounded vowel        | **E**d                     |
+|  7  | `IH`           | *i*, *ih*  | ɪ   | Near-close near-front unrounded vowel | **i**t                     |
+|  8  | `IY`           | *ee*       | i   | Close front unrounded vowel           | **ea**t                    |
+|  9  | `UH`           | *uu*       | ʊ   | Near-close near-back rounded vowel    | h**oo**d                   |
+| 10  | `UW`           | *oo*       | u   | Close back rounded vowel              | t**wo**                    |
+
+
+## Diphtongs
+
+| no  | ARPABET        | Respelling | IPA | phoneme                               | Examples                   |
+|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------------- |
+|  1  | `AW`           | *ow*       | aʊ  | diphtong                              | c**ow**                    |
+|  2  | `AY`           | *eye*      | aɪ  | diphtong                              | h**i**de                   |
+|  3  | `EY`           | *ay*       | eɪ  | diphtong                              | **a**te                    |
+|  4  | `OW`           | *oh*       | oʊ  | diphtong                              | **oa**t                    |
+|  5  | `OY`           | *oy*       | ɔɪ  | diphtong                              | t**oy**                    |
+
+
+## R-colored vowels
+
+| no  | ARPABET        | Respelling | IPA | phoneme                               | Examples                   |
+|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------------- |
+|  1  | `ER0`          | *er*       | ɚ   | R-colored vowel                       | h**ur**t, **ear**th        |
+|  2  | `ER1` or `ER2` | *ur*       | ɝ   | R-colored vowel                       | h**ur**t, **ear**th        |
 
 
 ## Consonants
@@ -130,13 +135,5 @@ ZH      seizure S IY ZH ER
 | 23  | `Z`     | *z*         | z   | Voiced alveolar fricative           | **z**ee     |
 | 24  | `ZH`    | *zh*        | ʒ   | Voiced postalveolar fricative       | sei**z**ure |
 
-
-### Stress
-
-| AB  | Description      |
-| --- | ---------------- |
-| 0   | No stress        |
-| 1   | Primary stress   |
-| 2   | Secondary stress |
 
 -----
