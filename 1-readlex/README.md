@@ -21,7 +21,7 @@ The prize money were also used to design a Shaw Alphabet [typewriter](https://oz
 Sadly, the Shaw Alphabet, despite of being very useful for phonemic transcription and as a simplest shorthand system, never gained popularity.
 
 
-Kingsley Read Lexicon (aka “Read Lexicon” or simply ReadLex) was built by Shaw Alphabet enthusiasts, partly based on the _Androcles and the Lion_ book, and (probably) on [Moby Project](https://en.wikipedia.org/wiki/Moby_Project).
+Kingsley Read Lexicon (aka “Read Lexicon” or simply ReadLex) was built by Shaw Alphabet enthusiasts, partly based on the _Androcles and the Lion_ book, and (probably) on [CMU Pronouncing Dictionary](https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary) from Carnegie Mellon University, or on [Moby Project](https://en.wikipedia.org/wiki/Moby_Project) by Grady Ward.
 
 Out of all the open-source lexicons with English pronunciation, ReadLex is the best. All other lexicons contain so many errors, indicating that they were NOT built by humans, or at the very least NOT by speakers of English.
 
@@ -52,9 +52,9 @@ Where:
  - **Pronunciation**: The Received Pronunciation based pronunciation adopted for the purpose of the Shavian spelling in the International Phonetic Alphabet. This includes some additional information in CAPITAL LETTERs, namely the standard word signs are “the” Ð, “to” T, “and” N, “of” V, and “for” F. The reinserted Rs not normally found in RP are represented by a capital R. Both options for the TRAP-BATH split and the TRAP-BATH merger are represented by capital Ɑː and capital Æ respectively. Some Shavian conventions around the spelling of /ə/ and unstressed /ɪ/ in some contexts are given as Ə and I, and both are transliterated as 𐑩 for the purposes of the Kingsley Read Lexicon. The voiceless /ʍ/ is also distinguished from /w/ for those who want it (e.g. to generate Quikscript spellings), but for the purposes of the Kingsley Read Lexicon both are transliterated as 𐑢.
  - **Rank**: number of occurrences per billion — the word frequency from the _British National Corpus_, for statistical interest and supporting predictive text applications. 
 
-As the table above demonstrates, the ReadLex contains both UK and US pronunciations (word _example_ — US: /ɪɡˈzÆmpəl/; UK: /ɪɡˈzⱭːmpəl/), but also many words are repeated because of their different function as a Part of Speech (see _exasperated_ in table above).
+As the table above demonstrates, the ReadLex contains both UK and US pronunciations (word _example_ — US: /ɪɡˈzÆmpəl/; UK: /ɪɡˈzⱭːmpəl/), but also many words are redundant because of their different function as a Part of Speech (see _exasperated_ in table above).
 
-The actual number of words in ReadLex is about 65 thousand.
+If the redundancy was to be eliminated by grouping by POS, the actual number of words in ReadLex would be about 65 thousand.
 
 The ReadLex is using a non-standard phonemic notation, but it is very close to the IPA-based notations used by many dictionaries like Oxford or Collins.
 
