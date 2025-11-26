@@ -64,76 +64,76 @@ Notes:
 
 ### Stress
 
-| AB  | Description      |
-| --- | ---------------- |
-| 0   | No stress        |
-| 1   | Primary stress   |
-| 2   | Secondary stress |
+|  Mark | Description      |
+| :---: | ---------------- |
+|   0   | No stress        |
+|   1   | Primary stress   |
+|   2   | Secondary stress |
 
 
-## Vowels:
+## Vowels
 
-| no  | ARPABET        | Respelling | IPA | phoneme                               | Examples                   |
-|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------------- |
-|  1  | `AA`           | *ah*       | ɑ   | Open central unrounded vowel          | **o**dd, c**a**r, p**a**lm |
-|  2  | `AE`           | *a*        | æ   | Near-open front unrounded vowel       | **a**t                     |
-|  3  | `AH0`          | *ə*        | ə   | Mid central vowel                     | **a**bout                  |
-|  4  | `AH`           | *uh*       | ʌ   | Open-mid back unrounded vowel         | h**u**t                    |
-|  5  | `AO`           | *aw*       | ɔ   | Open-mid back rounded vowel           | **ou**ght, st**o**ry       |
-|  6  | `EH`           | *eh*       | ɛ   | Open-mid front unrounded vowel        | **E**d                     |
-|  7  | `IH`           | *i*, *ih*  | ɪ   | Near-close near-front unrounded vowel | **i**t                     |
-|  8  | `IY`           | *ee*       | i   | Close front unrounded vowel           | **ea**t                    |
-|  9  | `UH`           | *uu*       | ʊ   | Near-close near-back rounded vowel    | h**oo**d                   |
-| 10  | `UW`           | *oo*       | u   | Close back rounded vowel              | t**wo**                    |
+| no. | ARPABET        | Respelling | IPA | phoneme                               | Examples             |
+|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------- |
+|  1  | `AA`           | *ah*       | ɑ   | Open central unrounded vowel          | *o*dd, c*a*r, p*a*lm |
+|  2  | `AE`           | *a*        | æ   | Near-open front unrounded vowel       | *a*t                 |
+|  3  | `AH0`          | *ə*        | ə   | Mid central vowel                     | *a*bout              |
+|  4  | `AH`           | *uh*       | ʌ   | Open-mid back unrounded vowel         | h*u*t                |
+|  5  | `AO`           | *aw*       | ɔ   | Open-mid back rounded vowel           | *ou*ght, st*o*ry     |
+|  6  | `EH`           | *eh*       | ɛ   | Open-mid front unrounded vowel        | *E*d                 |
+|  7  | `IH`           | *i*, *ih*  | ɪ   | Near-close near-front unrounded vowel | *i*t                 |
+|  8  | `IY`           | *ee*       | i   | Close front unrounded vowel           | *ea*t                |
+|  9  | `UH`           | *uu*       | ʊ   | Near-close near-back rounded vowel    | h*oo*d               |
+| 10  | `UW`           | *oo*       | u   | Close back rounded vowel              | t*wo*                |
 
 
 ## Diphtongs
 
-| no  | ARPABET        | Respelling | IPA | phoneme                               | Examples                   |
-|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------------- |
-|  1  | `AW`           | *ow*       | aʊ  | diphtong                              | c**ow**                    |
-|  2  | `AY`           | *eye*      | aɪ  | diphtong                              | h**i**de                   |
-|  3  | `EY`           | *ay*       | eɪ  | diphtong                              | **a**te                    |
-|  4  | `OW`           | *oh*       | oʊ  | diphtong                              | **oa**t                    |
-|  5  | `OY`           | *oy*       | ɔɪ  | diphtong                              | t**oy**                    |
+| no. | ARPABET        | Respelling | IPA | Examples                 |
+|:---:| :------------- | :--------- | --- | :----------------------- |
+|  1  | `AW`           | *ow*       | aʊ  | c*ow*                    |
+|  2  | `AY`           | *eye*      | aɪ  | h*i*de                   |
+|  3  | `EY`           | *ay*       | eɪ  | *a*te                    |
+|  4  | `OW`           | *oh*       | oʊ  | *oa*t                    |
+|  5  | `OY`           | *oy*       | ɔɪ  | t*oy*                    |
 
 
 ## R-colored vowels
 
-| no  | ARPABET        | Respelling | IPA | phoneme                               | Examples                   |
-|:---:| -------------- | ---------- | --- | ------------------------------------- | -------------------------- |
-|  1  | `ER0`          | *er*       | ɚ   | R-colored vowel                       | h**ur**t, **ear**th        |
-|  2  | `ER1` or `ER2` | *ur*       | ɝ   | R-colored vowel                       | h**ur**t, **ear**th        |
+| no. | ARPABET        | Respelling | IPA         | Examples                   |
+|:---:| :------------- | :--------- | :---------- | :------------------------- |
+|  1  | `ER0`          | *er*       | ɚ _or_ ər   | act*or*, mast*er*          |
+|  2  | `ER1` or `ER2` | *ur*       | ɝ _or_ ɜːr  | h*ur*t, f*ir*st, *ear*th   |
 
 
 ## Consonants
 
-| no  | ARPABET | Respelling  | IPA | Phonem                              | Example     |
-|:---:| :-----: | :-----------| :-- | :---------------------------------- | :---------- |
-| 1   | `B`     | *b*         | b   | Voiced bilabial plosive             | **b**e      |
-| 2   | `CH`    | *ch*, *tch* | tʃ  | Voiceless postalveolar affricate    | **ch**eese  |
-| 3   | `D`     | *d*         | d   | Voiced alveolar plosive             | **d**ee     |
-| 4   | `DH`    | *dh*        | ð   | Voiced dental fricative             | **th**ee    |
-| 5   | `F`     | *f*         | f   | Voiceless labiodental fricative     | **f**ee     |
-| 6   | `G`     | *g*         | ɡ   | Voiced velar plosive                | **g**reen   |
-| 7   | `HH`    | *h*         | h   | Voiceless glottal fricative         | **h**e      |
-| 8   | `JH`    | *j*         | dʒ  | Voiced postalveolar affricate       | **g**ee     |
-| 9   | `K`     | *k*         | k   | Voiceless velar plosive             | **k**ey     |
-| 10  | `L`     | *l*         | l   | Voiced alveolar lateral approximant | **l**ee     |
-| 11  | `M`     | *m*         | m   | Voiced bilabial nasal               | **m**e      |
-| 12  | `N`     | *n*         | n   | Voiced alveolar nasal               | **kn**ee    |
-| 13  | `NG`    | *ng*        | ŋ   | Voiced velar nasal                  | pi**ng**    |
-| 14  | `P`     | *p*         | p   | Voiceless bilabial plosive          | **p**ee     |
-| 15  | `R`     | *r*         | r   | Voiced alveolar trill               | **r**ead    |
-| 16  | `S`     | *s*, *ss*   | s   | Voiceless alveolar fricative        | **s**ea     |
-| 17  | `SH`    | *sh*        | ʃ   | Voiceless postalveolar fricative    | **sh**e     |
-| 18  | `T`     | *t*         | t   | Voiceless alveolar plosive          | **t**ea     |
-| 19  | `TH`    | *th*        | θ   | Voiceless dental fricative          | **th**eta   |
-| 20  | `V`     | *v*         | v   | Voiced labiodental fricative        | **v**ee     |
-| 21  | `W`     | *w*, *wh*   | w   | Voiced labial–velar approximant     | **w**e      |
-| 22  | `Y`     | *y*         | j   | Voiced palatal approximant          | **y**ield   |
-| 23  | `Z`     | *z*         | z   | Voiced alveolar fricative           | **z**ee     |
-| 24  | `ZH`    | *zh*        | ʒ   | Voiced postalveolar fricative       | sei**z**ure |
+| no. | ARPABET | Respelling  | IPA | Phonem                              | Example   |
+|:---:| :-----: | :-----------| :-- | :---------------------------------- | :-------- |
+| 1   | `B`     | *b*         | b   | Voiced bilabial plosive             | *b*e      |
+| 2   | `CH`    | *ch*, *tch* | tʃ  | Voiceless postalveolar affricate    | *ch*eese  |
+| 3   | `D`     | *d*         | d   | Voiced alveolar plosive             | *d*ee     |
+| 4   | `DH`    | *dh*        | ð   | Voiced dental fricative             | *th*ee    |
+| 5   | `F`     | *f*         | f   | Voiceless labiodental fricative     | *f*ee     |
+| 6   | `G`     | *g*         | ɡ   | Voiced velar plosive                | *g*reen   |
+| 7   | `HH`    | *h*         | h   | Voiceless glottal fricative         | *h*e      |
+| 8   | `JH`    | *j*         | dʒ  | Voiced postalveolar affricate       | *g*ee     |
+| 9   | `K`     | *k*         | k   | Voiceless velar plosive             | *k*ey     |
+| 10  | `L`     | *l*         | l   | Voiced alveolar lateral approximant | *l*ee     |
+| 11  | `M`     | *m*         | m   | Voiced bilabial nasal               | *m*e      |
+| 12  | `N`     | *n*         | n   | Voiced alveolar nasal               | *kn*ee    |
+| 13  | `NG`    | *ng*        | ŋ   | Voiced velar nasal                  | pi*ng*    |
+| 14  | `P`     | *p*         | p   | Voiceless bilabial plosive          | *p*ee     |
+| 15  | `R`     | *r*         | r   | Voiced alveolar trill               | *r*ead    |
+| 16  | `S`     | *s*, *ss*   | s   | Voiceless alveolar fricative        | *s*ea     |
+| 17  | `SH`    | *sh*        | ʃ   | Voiceless postalveolar fricative    | *sh*e     |
+| 18  | `T`     | *t*         | t   | Voiceless alveolar plosive          | *t*ea     |
+| 19  | `TH`    | *th*        | θ   | Voiceless dental fricative          | *th*eta   |
+| 20  | `V`     | *v*         | v   | Voiced labiodental fricative        | *v*ee     |
+| 21  | `W`     | *w*, *wh*   | w   | Voiced labial–velar approximant     | *w*e      |
+| 22  | `Y`     | *y*         | j   | Voiced palatal approximant          | *y*ield   |
+| 23  | `Z`     | *z*         | z   | Voiced alveolar fricative           | *z*ee     |
+| 24  | `ZH`    | *zh*        | ʒ   | Voiced postalveolar fricative       | sei*z*ure |
 
 
 -----
