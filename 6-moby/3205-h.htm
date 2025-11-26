@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Moby (tm) Pronunciator II | Project Gutenberg</title>
+  <style>
+
+    body {
+      margin-left: 8%;
+      margin-right: 10%;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      clear: both;
+    }
+
+    h1, h2 {margin-top: 10%;}
+
+    p {
+      margin-top: .5em;
+      margin-bottom: .5em;
+      text-align: justify;
+      text-indent: 1em;
+    }
+
+    div.topic {
+      font-weight: bold;
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 3205 ***</div>
+
+<h1>Moby (tm) Pronunciator II</h1>
+
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="Moby_tm_Pronunciator_II_Documentation_Notes">
+    Moby (tm) Pronunciator II Documentation Notes
+  </h2>
+</div>
+
+<p>This documentation, the software and/or database are:</p>
+
+<p>Public Domain material by grant from the author, January, 2001.</p>
+
+<p>Moby (tm) Pronunciator II for MSDOS operating systems is compressed
+and distributed as a single zip file.  After decompression the
+hyphanation file included with this product is in ordinary ASCII
+format with CRLF (ASCII 13/10) delimiters.</p>
+
+<h2>MOBY Pronunciator II CONTENTS</h2>
+
+<div class="topic"><a href="https://www.gutenberg.org/files/3205/files/abreadme.txt">
+  Acknowledgments</a></div>
+<div class="topic"><a href="https://www.gutenberg.org/files/3205/files/cmudict.txt">
+  CMU Dictionary list</a></div>
+<div class="topic"><a href="https://www.gutenberg.org/files/3205/files/mpron.txt">
+  Pronunciation list</a></div>
+<div class="topic"><a href="https://www.gutenberg.org/files/3205/files/phoneset.txt">
+  Phone Set list</a></div>
+
+<h3>Quick Start</h3>
+<ol>
+  <li>Insure you have at least 9Mb of free disk space to hold the contents
+    of this zip file.</li>
+  <li>Create a directory to hold these files listed above.</li>
+  <li>Extract the contents of this zip file into the destination directory
+    using any compatible zip file extraction utility.</li>
+  <li>Delete the original zip file from your disk to save space. (optional)</li>
+</ol>
+
+<p>LEGEND</p>
+
+<p>Each pronunciation vocabulary entry consists of a word or phrase
+field followed by a field delimiter of space " " and the
+IPA-equivalent field that is coded using the following ASCII symbols
+(case is significant).  Spaces between words in the word or phrase or
+pronunciation field is denoted with underbar "_".</p>
+
+<pre>
+  /&amp;/     sounds like the "a" in "dab"<br>
+  /(@)/   sounds like the "a" in "air"<br>
+  /A/     sounds like the "a" in "far"<br>
+  /eI/    sounds like the "a" in "day"<br>
+  /@/     sounds like the "a" in "ado"<br>
+  or the glide "e" in "system" (dipthong schwa)<br>
+  /-/     sounds like the "ir" glide in "tire"<br>
+  or the  "dl" glide in "handle"<br>
+  or the "den" glide in "sodden" (dipthong little schwa)<br>
+  /b/     sounds like the "b" in "nab"<br>
+  /tS/    sounds like the "ch" in "ouch"<br>
+  /d/     sounds like the "d" in "pod"<br>
+  /E/     sounds like the "e" in "red"<br>
+  /i/     sounds like the "e" in "see"<br>
+  /f/     sounds like the "f" in "elf"<br>
+  /g/     sounds like the "g" in "fig"<br>
+  /h/     sounds like the "h" in "had"<br>
+  /hw/    sounds like the "w" in "white"<br>
+  /I/     sounds like the "i" in "hid"<br>
+  /aI/    sounds like the "i" in "ice"<br>
+  /dZ/    sounds like the "g" in "vegetably"<br>
+  /k/     sounds like the "c" in "act"<br>
+  /l/     sounds like the "l" in "ail"<br>
+  /m/     sounds like the "m" in "aim"<br>
+  /N/     sounds like the "ng" in "bang"<br>
+  /n/     sounds like the "n" in "and"<br>
+  /Oi/    sounds like the "oi" in "oil"<br>
+  /A/     sounds like the "o" in "bob"<br>
+  /AU/    sounds like the "ow" in "how"<br>
+  /O/     sounds like the "o" in "dog"<br>
+  /oU/    sounds like the "o" in "boat"<br>
+  /u/     sounds like the "oo" in "too"<br>
+  /U/     sounds like the "oo" in "book"<br>
+  /p/     sounds like the "p" in "imp"<br>
+  /r/     sounds like the "r" in "ire"<br>
+  /S/     sounds like the "sh" in "she"<br>
+  /s/     sounds like the "s" in "sip"<br>
+  /T/     sounds like the "th" in "bath"<br>
+  /D/     sounds like the "th" in "the"<br>
+  /t/     sounds like the "t" in "tap"<br>
+  /@/     sounds like the "u" in "cup"<br>
+  /@r/    sounds like the "u" in "burn"<br>
+  /v/     sounds like the "v" in "average"<br>
+  /w/     sounds like the "w" in "win"<br>
+  /j/     sounds like the "y" in "you"<br>
+  <br>
+  /Z/     sounds like the "s" in "vision"<br>
+  /z/     sounds like the "z" in "zoo"<br>
+  <br>
+  <br>
+  Stress or emphasis is marked in the data with the primary "'" or<br>
+  secondary "," marks:<br>
+  <br>
+  "'" (uncurled apostrophe) marks primary stress<br>
+  "," (comma) marks secondary stress.<br>
+  <br>
+  Moby Pronunciator contains many common names and phrases borrowed from<br>
+  other languages; special sounds include (case is significant):<br>
+  <br>
+  "A"  sounds like the "a" in "ami"<br>
+  "N"  sounds like the "n" in "Francoise"<br>
+  "R"  sounds like the "r" in "Der"<br>
+  /x/  sounds like the "ch" in "Bach"<br>
+  /y/  sounds like the "eu" in "cordon bleu"<br>
+  "Y"  sounds like the "u" in "Dubois"
+
+Words and Phrases adopted from languages other than English have the
+unaccented form of the roman spelling.  For example, "etude" has an
+initial accented "e" but is spelled without the accent in the Moby
+Pronunciator II database.
+
+Each two-part vocabulary record is delimited from others with CRLF
+(ASCII 13/10).
+
+SPECIAL FEATURE OF THIS LEXICON:
+several hundred words pronounced differently because of their
+part-speech have been distinguished.
+
+For example, the entries:
+
+close/v kl/oU/z  and  close/aj kl/oU/s
+(terminal sibilant varies)
+
+or
+
+effect/n '/I/,f/E/kt  and  effect/v ,/I/'f/E/kt
+(stress varies)
+
+distinguish those two parts of speech.  (Any word with this
+information will terminate with the virgule (slash) in the vocabulary
+field, followed by one or more of the following part-of-speech
+abbreviations:
+
+n, v, av, aj, interj, followed by the rest of the pronunciation record.
+
+Acknowledgements:
+Date: 9-15-93
+
+This directory contains a pronunciation dictionaries (cmudict.txt is
+the most up-to-date) containing approximately 100k words and their
+transcriptions.  We use these dictionaries at CMU in our speech
+understanding systems.
+
+The phone set for this dictionary contains 39 phones, which can be
+found in phoneset.txt.
+
+Stress is indicated by means of a numeral [012] attached to a vowel:
+0 = no stress
+1 = primary stress
+2 = secondary stress
+
+Alternate transcriptions are identified with a numeral in parentheses as
+part of the lexical entry.
+
+We generated this dictionary using the following independent sources:
+- a 20k+ general English dictionary, built by hand at CMU
+(extensively proofed and used).
+- a 200k+ UCLA-proofed version of the shoup dictionary.
+- a 32k subset of the Dragon dictionary.
+- a 53k+ dictionary of proper names, synthesiser-generated, unproofed.
+- a 200k dictionary generated with Orator, unproofed.
+- a 200k dictionary generated with Mitalk, unproofed.
+</pre>
+
+<p>All entries that occur solely in copyrighted sources, like the Dragon
+dictionary, are not currently included in this dictionary.  If you
+have words and transcriptions that you would like included in this
+unrestricted resource, please send them to Robert L. Weide (weide@cs.
+cmu.edu) and we will consider them for an upcoming version.</p>
+
+<p>All of the above sources were preprocessed and the transcriptions in
+the current cmudict.0.1 were selected from the transcriptions in the
+sources or a combination thereof.  We have removed some potentially
+unreliable transcriptions from this dictionary, including those based
+on only one source, and will reintroduce them once we have verified
+the transcriptions.</p>
+
+<p>CMU does not guarantee the accuracy of this dictionary, nor its
+suitablity for any specific purpose.  In fact, we expect a number of
+errors, omissions and inconsistencies to remain in the current result.
+We intend to continually update the dictionary as we make progress
+in correcting them.  We will make subsequent versions available via
+anonymous ftp, and those who would like notification when updated
+versions are available should send email to weide@cs.cmu.edu.</p>
+
+<p>We welcome input from users: send e-mail to Robert L. Weide (weide@cs.
+cmu.edu) for comments and suggestions on the content of the
+dictionary, or to Peter Jansen (pjj@cs.cmu.edu) for questions
+regarding the combination process.</p>
+
+<p>The Carnegie Mellon Pronouncing Dictionary [cmudict.0.1] is Copyright
+1993 by Carnegie Mellon University.  Use of this dictionary, for any
+research or commercial purpose, is completely unrestricted.  If you
+make use of or redistribute this material, we would appreciate
+acknowlegement of its origin.</p>
+
+<p>Finally, if you add words to or correct words in this dictionary, we
+would like the additions and corrections sent to us (weide@cs) for
+consideration in a subsequent version.  All final entries will be
+approved by Robert L. Weide and Peter Jansen, editors of the
+dictionary.</p>
+
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 3205 ***</div>
+</body>
+</html>
