@@ -57,7 +57,7 @@ Notes:
 
 ## ARPABET notation  
 
-* _source: <https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary>_
+* Source: <https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary>
 * [Respelling key](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")
 * [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet "International Phonetic Alphabet")
 
@@ -94,7 +94,7 @@ Notes:
 |  1  | `AW`           | *ow*       | aʊ  | c*ow*                    |
 |  2  | `AY`           | *eye*      | aɪ  | h*i*de                   |
 |  3  | `EY`           | *ay*       | eɪ  | *a*te                    |
-|  4  | `OW`           | *oh*       | oʊ  | *oa*t                    |
+|  4  | `OW`           | *oh*       | ɔʊ  | *oa*t                    |
 |  5  | `OY`           | *oy*       | ɔɪ  | t*oy*                    |
 
 
