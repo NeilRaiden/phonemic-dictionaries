@@ -37,13 +37,16 @@ This project collects all open-source English pronunciation dictionaries and/or 
  * GitHub project: [cmusphinx/cmudict](https://github.com/cmusphinx/cmudict) 
  * License: [Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.](cmudict/LICENSE)
  * Entries: **135,167**
+ * Note: General American (GE) only!
+ * Note: GitHub repo not maintained for over 10 years!
 
 ### 5. [CMUDict v0.7b](5-cmudict-07b/README.md)
 
  * Website: <http://www.speech.cs.cmu.edu/cgi-bin/cmudict>
- * GitHub project: [](https://github.com/Alexir/CMUdict.git)
+ * GitHub project: [github.com/Alexir/CMUdict](https://github.com/Alexir/CMUdict)
  * License: Copyright (c) 2015, Carnegie Mellon University
- * Entries: **134,429**
+ * Entries: **134,373**
+ * Note: General American (GE) only!
 
 -----
 

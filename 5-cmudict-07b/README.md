@@ -1,55 +1,96 @@
-# CMUdict
+# CMUdict v0.7b
 
 -----
 
-##  [CMUDict](4-cmudict/README.md):
-
- * Website: [cmusphinx.github.io](https://cmusphinx.github.io)
- * GitHub project: [cmusphinx/cmudict](https://github.com/cmusphinx/cmudict) 
- * License: [Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.](cmudict/LICENSE)
- * Entries: **135,167**
+ * Website: <http://www.speech.cs.cmu.edu/cgi-bin/cmudict>
+ * GitHub project: [github.com/Alexir/CMUdict](https://github.com/Alexir/CMUdict)
+ * License: Copyright (c) 2015, Carnegie Mellon University
+ * Entries: **134,373**
+ * Note: General American (GE) only!
+ * Version 0.7b released: November 19, 2014
 
 -----
 
-## Original README from the cmusphinx/cmudict repo
+_(original README.md)_
 
-CMUdict (the Carnegie Mellon Pronouncing Dictionary) is a free pronouncing dictionary of English, suitable for uses in speech technology and is maintained by the Speech Group in the School of Computer Science at Carnegie Mellon University.
+## CMUdict
 
-The Carnegie Mellon Speech Group does not guarantee the accuracy of this dictionary, nor its suitability for any specific purpose. In fact, we expect a number of errors, omissions and inconsistencies to remain in the dictionary. We intend to continually update the dictionary by correction existing entries and by adding new ones. From time to time a new major version will be released.
+Various maintenance and development scripts for managing the cmudict
+* recently updated dictionaries
+* scripts for manipulation
+* schemes for maintenance workflows
+
+Note: This is a working version of cmudict, maintained by Alexander Rudnicky (`air@cs.cmu.edu`) for mainly his own use.  
+It is not necessarly up-to-date; other versions exist and might be more up-to-date.  
+This version is periodically updated by Alex Rudnicky, at which time changes from other versions may be incorporated. 
+Yes, I know, this should really be done in a branch. But it's not. 
+
+In particular, take a look at  `https://github.com/cmusphinx/cmudict`.
+
+-----
+
+## About 
+
+CMUdict (the Carnegie Mellon Pronouncing Dictionary) is a free pronouncing dictionary of English,
+suitable for uses in speech technology and is maintained by the Speech Group in the School of Computer Science at Carnegie Mellon University.
+
+The Carnegie Mellon Speech Group does not guarantee the accuracy of this dictionary, nor its suitability for any specific purpose.
+In fact, we expect a number of errors, omissions and inconsistencies to remain in the dictionary.
+We intend to continually update the dictionary by correction existing entries and by adding new ones.
+From time to time a new major version will be released.
 
 We welcome input from users: Please send email to Alex Rudnicky (air+cmudict@cs.cmu.edu).
 
-The Carnegie Mellon Pronouncing Dictionary, in its current and previous versions is Copyright (C) 1993-2014 by Carnegie Mellon University.  Use of this dictionary for any research or commercial purpose is completely unrestricted.  If you make use of or redistribute this material we request that you acknowledge its origin in your descriptions.
+The Carnegie Mellon Pronouncing Dictionary, in its current and previous versions is Copyright (C) 1993-2014 by Carnegie Mellon University.
+Use of this dictionary for any research or commercial purpose is completely unrestricted.
+If you make use of or redistribute this material we request that you acknowledge its origin in your descriptions, as per the license information included in the dictionary file (a Simplified BSD lincense).
 
-If you add words to or correct words in your version of this dictionary, we would appreciate it if you could send these additions and corrections to us (air+cmudict@cs.cmu.edu) for consideration in a subsequent version. All submissions will be reviewed and approved by the current maintainer, Alex Rudnicky at Carnegie Mellon.
+If you add words to or correct entries in your version of this dictionary, we would appreciate it if you could send these additions and corrections to us (air+cmudict@cs.cmu.edu) for consideration in a subsequent version.
+
+All submissions will be reviewed and approved by the current maintainer, Alex Rudnicky at Carnegie Mellon University.
+
+-----
+
+## Notes
+
+- acronyms are in a separate file `acronym-0.7b`
 
 -----
 
 ## Format
 
-The file `cmudict.dict` is a simple text file with one word per line:
- - English word in first column
- - pronunciation split into separate phonemes
+ * dictrionary split into two files:
+    - `acronym-0.7b` - acronyms in separate file
+    - `cmudict-0.7b` - main dictionary file
+ * first 56 lines of `cmudict-0.7b` which start with tripple-semicolon contain general info and license notice
+ * unlike previous versions of CMUdict all English words are in uppercase
+ * one word per line space-separated, word separated from pronunciation with double-space
+ - pronunciation split into separate phonemes (separated with space)
  - it uses ARPABET notation (see below)
 
 ```
-example IH0 G Z AE1 M P AH0 L
-examples IH0 G Z AE1 M P AH0 L Z
-exams IH0 G Z AE1 M Z
-exar EH1 K S ER0
-exasperate IH0 G Z AE1 S P ER0 EY2 T
-exasperated IH0 G Z AE1 S P ER0 EY2 T IH0 D
-exasperating IH0 G Z AE1 S P ER0 EY2 T IH0 NG
-exasperation EH2 K S AE2 S P ER0 EY1 SH AH0 N
-exboyfriend EH2 K S B OY1 F R EH2 N D
-exbroker EH1 K S B R OW1 K ER0
+EXAMPLE  IH0 G Z AE1 M P AH0 L
+EXAMPLES  IH0 G Z AE1 M P AH0 L Z
+EXAMS  IH0 G Z AE1 M Z
+EXAR  EH1 K S ER0
+EXASPERATE  IH0 G Z AE1 S P ER0 EY2 T
+EXASPERATED  IH0 G Z AE1 S P ER0 EY2 T IH0 D
+EXASPERATING  IH0 G Z AE1 S P ER0 EY2 T IH0 NG
+EXASPERATION  EH2 K S AE2 S P ER0 EY1 SH AH0 N
+EXBOYFRIEND  EH2 K S B OY1 F R EH2 N D
+EXBROKER  EH1 K S B R OW1 K ER0
+EXBROKER'S  EH1 K S B R OW1 K ER0 Z
+EXBROKERS  EH1 K S B R OW1 K ER0 Z
 ```
 
-Notes: 
-- this lexicon uses only 39 basic phonemes in ARPABET notation.
-- accent marks are represented by digits (0,1,2) placed **after the vowel** of an accented syllable. In English accent can be placed also on consontants (like f, v, s, z) so the common approach in phonemic/phonetic notations is to place the accent mark **before the syllable**. So this would need to be corrected.
+-----
+
+## Comments
+
+- this lexicon uses only 39 basic phonemes in ARPABET notation, see `cmudict-0.7b.phones` and `cmudict-0.7b.symbols`
+- accent marks are represented by digits (0,1,2) placed **after the vowel** of the accented syllable. In English, accent can be placed also on consontants (like f, v, s, z) so the common approach in phonemic/phonetic notations is to place the accent mark **before the syllable**. So this would need to be corrected.
 - there is no distinction between ⟨ɑ⟩ and ⟨ɒ⟩ (the same vowel for _odd_, _car_, _palm_)  — so this dictionary is for **General American (GA)**, which is spoken by only SOME Americans, but not by ALL Americans.
-- there is no distinction between ⟨́́ɝ⟩ and ⟨ɚ⟩ (shortened ⟨ɜːr⟩ and ⟨ər⟩) — although these can be derived from the accent mark: ER0 ⟨ɚ⟩ and ER1 or ER2 ⟨ɝ⟩ (example: “burger B ER1 G ER0” - /bɜːrɡər/)
+- there is no distinction between ⟨́́ɝ⟩ and ⟨ɚ⟩ (shortened ⟨ɜːr⟩ and ⟨ər⟩) — although these can be derived from the accent mark: ER0 ⟨ɚ⟩ and ER1 or ER2 ⟨ɝ⟩ (example: “BURGER  B ER1 G ER0” - /bɜːrɡər/)
 - the only distinction between _schwa_ ⟨ə⟩ and _strut_ ⟨ʌ⟩ is the accent mark: AH0 for ⟨ə⟩ and AH for ⟨ʌ⟩.
 - this lexicon contains a very huge amount of non-English words and names (German, Russian, etc).
 
