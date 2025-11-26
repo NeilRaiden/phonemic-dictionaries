@@ -50,14 +50,6 @@ This project collects all open-source English pronunciation dictionaries and/or 
 
 -----
 
-### 6. KRL 2
-
- * Kingsley Read Lexicon in new [format](KRL/README.md)
- * The phonemic transcription was converted to standard IPA notation (mix of Gimson and Upton notation) similar to the notation used by the most popular dictionaries like [Oxford](https://www.oxfordlearnersdictionaries.com/us/) or [Collins](https://www.collinsdictionary.com/us/dictionary/english).
- * Reference: [Standard IPA symbols tables](IPAsymbols.md).
-
------
-
 ### Other open-source dictionaries/lexicons:
 
 1. [Wiktionary.org](https://www.wiktionary.org)
