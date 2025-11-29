@@ -70,36 +70,36 @@ _(based on 3205-0.txt)_
 
 | no. | symbol | IPA | description                        |
 | --- | :----- | --- | :--------------------------------- |
-|  1  | /p/    |  p  | sounds like the "p" in "imp"       |
-|  2  | /b/    |  b  | sounds like the "b" in "nab"       |
-|  3  | /t/    |  t  | sounds like the "t" in "tap"       |
-|  4  | /d/    |  d  | sounds like the "d" in "pod"       |
-|  5  | /k/    |  k  | sounds like the "c" in "act"       |
-|  6  | /g/    |  ɡ  | sounds like the "g" in "fig"       |
+|  1  |  p     |  p  | sounds like the "p" in "imp"       |
+|  2  |  b     |  b  | sounds like the "b" in "nab"       |
+|  3  |  t     |  t  | sounds like the "t" in "tap"       |
+|  4  |  d     |  d  | sounds like the "d" in "pod"       |
+|  5  |  k     |  k  | sounds like the "c" in "act"       |
+|  6  |  g     |  ɡ  | sounds like the "g" in "fig"       |
 |  7  | /T/    |  θ  | sounds like the "th" in "bath"     |
 |  8  | /D/    |  ð  | sounds like the "th" in "the"      |
-|  9  | /f/    |  f  | sounds like the "f" in "elf"       |
-|  10 | /v/    |  v  | sounds like the "v" in "average"   |
-|  11 | /s/    |  s  | sounds like the "s" in "sip"       |
-|  12 | /z/    |  z  | sounds like the "z" in "zoo"       |
+|  9  |  f     |  f  | sounds like the "f" in "elf"       |
+|  10 |  v     |  v  | sounds like the "v" in "average"   |
+|  11 |  s     |  s  | sounds like the "s" in "sip"       |
+|  12 |  z     |  z  | sounds like the "z" in "zoo"       |
 |  13 | /S/    |  ʃ  | sounds like the "sh" in "she"      |
 |  14 | /Z/    |  ʒ  | sounds like the "s" in "vision"    |
 |  15 | /tS/   |  tʃ | sounds like the "ch" in "ouch"     |
 |  16 | /dZ/   |  dʒ | sounds like the "g" in "vegetably" |
-|  17 | /h/    |  h  | sounds like the "h" in "had"       |
+|  17 |  h     |  h  | sounds like the "h" in "had"       |
 
 
 ## Sonorants
 
 | no. | symbol | IPA | description                        |
 | --- | :----- | --- | :--------------------------------- |
-|  1  | /w/    |  w  | sounds like the "w" in "win"       |
+|  1  |  w     |  w  | sounds like the "w" in "win"       |
 |  2  | /hw/   |  ʍ  | sounds like the "w" in "white"     |
 |  3  | /j/    |  j  | sounds like the "y" in "you"       |
-|  4  | /r/    |  r  | sounds like the "r" in "ire"       |
-|  5  | /l/    |  l  | sounds like the "l" in "ail"       |
-|  6  | /m/    |  m  | sounds like the "m" in "aim"       |
-|  7  | /n/    |  n  | sounds like the "n" in "and"       |
+|  4  |  r     |  r  | sounds like the "r" in "ire"       |
+|  5  |  l     |  l  | sounds like the "l" in "ail"       |
+|  6  |  m     |  m  | sounds like the "m" in "aim"       |
+|  7  |  n     |  n  | sounds like the "n" in "and"       |
 |  8  | /N/    |  ŋ  | sounds like the "ng" in "bang"     |
 
 
@@ -112,6 +112,18 @@ _(based on 3205-0.txt)_
 |  3  | /Oi/   |  ɔɪ | sounds like the "oi" in "oil"      |
 |  4  | /AU/   |  aʊ | sounds like the "ow" in "how"      |
 |  5  | /oU/   |  ɔʊ | sounds like the "o" in "boat"      |
+|  6  | /ju/   |  ju | 14 entries, eg: "abuse /@/ˈb/ju/z" |
+
+Inconsistencies:
+ - the ⟨ɔɪ⟩ diphtong is mostly eclosed with double-slashes:
+	- //Oi// - 2,683 words
+	- /O//I/ - 74 words
+	- /Oi/   - 4 words
+	- /O/i   - 1 word
+	- /O//i/ - 4 words
+ - the ⟨ju⟩ diphtong is inconsistently represented:
+	- /j//u/ - 3,471 words
+	- /ju/   - 14 words
 
 
 ## Vowels
@@ -121,15 +133,19 @@ _(based on 3205-0.txt)_
 |  1  | /-/    |  ᵊ  | sounds like the "ir" glide in "tire", or the  "dl" glide in "handle", or the "den" glide in "sodden" (dipthong little schwa) |
 |  2  | /@/    |  ə  | sounds like the "a" in "ado" or the glide "e" in "system" (dipthong schwa) |
 |  3  | /@/    |  ʌ  | sounds like the "u" in "cup"       |
-|  4  | /&/    |  æ  | sounds like the "a" in "dab"       |
-|  5  | /A/    |  ɑ  | sounds like the "a" in "far"       |
-|  6  | /A/    |  ɒ  | sounds like the "o" in "bob"       |
+|  4  | /A/    |  ɑ  | sounds like the "a" in "far"       |
+|  5  | /A/    |  ɒ  | sounds like the "o" in "bob"       |
+|  6  | /&/    |  æ  | sounds like the "a" in "dab"       |
 |  7  | /E/    |  ɛ  | sounds like the "e" in "red"       |
-|  8  | /O/    |  ɔ  | sounds like the "o" in "dog"       |
+|  8  | /O/    |  ɔ  | sounds like the "o" in "dog" - actually "aw" as in "law" |
 |  9  | /U/    |  ʊ  | sounds like the "oo" in "book"     |
 |  10 | /u/    |  u  | sounds like the "oo" in "too"      |
 |  11 | /I/    |  ɪ  | sounds like the "i" in "hid"       |
 |  12 | /i/    |  i  | sounds like the "e" in "see"       |
+
+Problems:
+ - ⟨ə⟩ and ⟨ʌ⟩ is represented with the same symbol "/@/"
+ - ⟨ɑ⟩ and ⟨ɒ⟩ is represented with the same symbol "/A/"
 
 
 ## R-colored vowels
@@ -138,16 +154,25 @@ _(based on 3205-0.txt)_
 | --- | :----- | --- | :--------------------------------- |
 |  1  | /(@)/  |  ɚ  | sounds like the "a" in "air"       |
 |  2  | /[@]/  |  ɝ  | sounds like the "u" in "burn"      |
-|  3  | /@r/   |  ɝ? | sounds like the "u" in "burn"      |
 
+Problems:
+ - ⟨ɚ⟩ and ⟨ɝ⟩ is often unnecessarily followed by ⟨r⟩
+    - /(@)/r  - 3,126 words
+    - /(@)/   - 41 words (mostly mispronouced, e.g.: "yeah /j//(@)/")
+    - /(@)/'r - 24 words
+    - /(@)/R  - 45 words
+
+---
 
 Total phonems:
  - 17 consonants
  -  8 soronants
  -  5 diphtongs
  - 12 vowels
- -  3 R-colored vowels
- - 44 total number of phonemes
+ -  2 R-colored vowels
+ - 45 total number of phonemes (excluding foreign words)
+
+---
 
 ## Stress marks
 
@@ -158,16 +183,21 @@ Total phonems:
 | "'" | (uncurled apostrophe) marks primary stress |  ˈ  |
 | "," | (comma) marks secondary stress.            |  ˌ  |
 
-## Other symbols
+## Foreign words and other symbols
 
 Moby Pronunciator contains many common names and phrases borrowed from other languages; special sounds include (case is significant):
 
- * "A"  sounds like the "a"  in "ami"
- * "N"  sounds like the "n"  in "Francoise"
- * "R"  sounds like the "r"  in "Der"
- * /x/  sounds like the "ch" in "Bach"
- * /y/  sounds like the "eu" in "cordon bleu"
- * "Y"  sounds like the "u"  in "Dubois"
+| symbol | description                           | words | examples                       |
+| :---:  | :------------------------------------ | ----- | :----------------------------- |
+| "A"    | sounds like the "a"  in "ami"         |   457 | "Abailard Ab/eI/'lAR"          |
+| "N"    | sounds like the "n"  in "Francoise"   |   553 | "accouchement Ak/u//S/'m/A/N"  |
+| "R"    | sounds like the "r"  in "Der"         | 2,651 | "Abailard Ab/eI/'lAR"          |
+| /x/    | sounds like the "ch" in "Bach"        |   340 | "Abkhazia /A/b'/x//A/s/i/,/A/" |
+| /y/    | sounds like the "eu" in "cordon bleu" |   210 | "accoucheur Ak/u/'/S//y/R"     |
+| "Y"    | sounds like the "u"  in "Dubois"      |   162 | "Aloys '/A/l/oU/Ys"            |
+| "E"    | ?                                     |     2 | "Oland 'OE,l/A/nd" and "Volker 'f/y/lkER" |
+
+Number of foreign words: 3,182.
 
 Words and Phrases adopted from languages other than English have the unaccented form of the roman spelling.
 For example, "etude" has an initial accented "e" but is spelled without the accent in the Moby Pronunciator II database.
