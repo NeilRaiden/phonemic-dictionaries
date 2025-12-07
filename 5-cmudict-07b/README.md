@@ -155,30 +155,33 @@ PROGRESS(2)  P R OW0 G R EH1 S
 
 | no. | ARPABET | Respelling  | IPA | Phonem                              | Example   |
 |:---:| :-----: | :-----------| :-- | :---------------------------------- | :-------- |
-| 1   | `B`     | *b*         | b   | Voiced bilabial plosive             | *b*e      |
-| 2   | `CH`    | *ch*, *tch* | tʃ  | Voiceless postalveolar affricate    | *ch*eese  |
-| 3   | `D`     | *d*         | d   | Voiced alveolar plosive             | *d*ee     |
-| 4   | `DH`    | *dh*        | ð   | Voiced dental fricative             | *th*ee    |
-| 5   | `F`     | *f*         | f   | Voiceless labiodental fricative     | *f*ee     |
+| 1   | `P`     | *p*         | p   | Voiceless bilabial plosive          | *p*ee     |
+| 2   | `B`     | *b*         | b   | Voiced bilabial plosive             | *b*e      |
+| 3   | `T`     | *t*         | t   | Voiceless alveolar plosive          | *t*ea     |
+| 4   | `D`     | *d*         | d   | Voiced alveolar plosive             | *d*ee     |
+| 5   | `K`     | *k*         | k   | Voiceless velar plosive             | *k*ey     |
 | 6   | `G`     | *g*         | ɡ   | Voiced velar plosive                | *g*reen   |
-| 7   | `HH`    | *h*         | h   | Voiceless glottal fricative         | *h*e      |
-| 8   | `JH`    | *j*         | dʒ  | Voiced postalveolar affricate       | *g*ee     |
-| 9   | `K`     | *k*         | k   | Voiceless velar plosive             | *k*ey     |
-| 10  | `L`     | *l*         | l   | Voiced alveolar lateral approximant | *l*ee     |
-| 11  | `M`     | *m*         | m   | Voiced bilabial nasal               | *m*e      |
-| 12  | `N`     | *n*         | n   | Voiced alveolar nasal               | *kn*ee    |
-| 13  | `NG`    | *ng*        | ŋ   | Voiced velar nasal                  | pi*ng*    |
-| 14  | `P`     | *p*         | p   | Voiceless bilabial plosive          | *p*ee     |
-| 15  | `R`     | *r*         | r   | Voiced alveolar trill               | *r*ead    |
-| 16  | `S`     | *s*, *ss*   | s   | Voiceless alveolar fricative        | *s*ea     |
-| 17  | `SH`    | *sh*        | ʃ   | Voiceless postalveolar fricative    | *sh*e     |
-| 18  | `T`     | *t*         | t   | Voiceless alveolar plosive          | *t*ea     |
-| 19  | `TH`    | *th*        | θ   | Voiceless dental fricative          | *th*eta   |
-| 20  | `V`     | *v*         | v   | Voiced labiodental fricative        | *v*ee     |
-| 21  | `W`     | *w*, *wh*   | w   | Voiced labial–velar approximant     | *w*e      |
-| 22  | `Y`     | *y*         | j   | Voiced palatal approximant          | *y*ield   |
-| 23  | `Z`     | *z*         | z   | Voiced alveolar fricative           | *z*ee     |
-| 24  | `ZH`    | *zh*        | ʒ   | Voiced postalveolar fricative       | sei*z*ure |
+| 7   | `S`     | *s*, *ss*   | s   | Voiceless alveolar fricative        | *s*ea     |
+| 8   | `Z`     | *z*         | z   | Voiced alveolar fricative           | *z*ee     |
+| 9   | `F`     | *f*         | f   | Voiceless labiodental fricative     | *f*ee     |
+| 10  | `V`     | *v*         | v   | Voiced labiodental fricative        | *v*ee     |
+| 11  | `TH`    | *th*        | θ   | Voiceless dental fricative          | *th*eta   |
+| 12  | `DH`    | *dh*        | ð   | Voiced dental fricative             | *th*ee    |
+| 13  | `SH`    | *sh*        | ʃ   | Voiceless postalveolar fricative    | *sh*e     |
+| 14  | `ZH`    | *zh*        | ʒ   | Voiced postalveolar fricative       | sei*z*ure |
+| 15  | `CH`    | *ch*, *tch* | tʃ  | Voiceless postalveolar affricate    | *ch*eese  |
+| 16  | `JH`    | *j*         | dʒ  | Voiced postalveolar affricate       | *g*ee     |
+| 17  | `W`     | *w*, *wh*   | w   | Voiced labial–velar approximant     | *w*e      |
+| 18  | `M`     | *m*         | m   | Voiced bilabial nasal               | *m*e      |
+| 19  | `Y`     | *y*         | j   | Voiced palatal approximant          | *y*ield   |
+| 20  | `N`     | *n*         | n   | Voiced alveolar nasal               | *kn*ee    |
+| 21  | `HH`    | *h*         | h   | Voiceless glottal fricative         | *h*e      |
+| 22  | `NG`    | *ng*        | ŋ   | Voiced velar nasal                  | pi*ng*    |
+| 23  | `R`     | *r*         | r   | Voiced alveolar trill               | *r*ead    |
+| 24  | `L`     | *l*         | l   | Voiced alveolar lateral approximant | *l*ee     |
 
 
 -----
+
+Last updated: 2025-12-06
+

@@ -44,7 +44,7 @@ This project collects all open-source English pronunciation dictionaries and/or 
  * License: [Copyright (C) 1993-2015 Carnegie Mellon University (CMU)](cmudict/LICENSE)
  * Note: GitHub repo not maintained for over 10 years!
  * Entries: **135,167**
- * Phonemic notation: [ARPABET](https://en.wikipedia.org/wiki/ARPABET)
+ * Phonemic notation: [ARPABET](https://en.wikipedia.org/wiki/ARPABET) (39 phonemes)
  * Note: General American (GE) only due to [father-bother merger](https://en.wikipedia.org/wiki/Father%E2%80%93bother_merger).
 
 
