@@ -32,7 +32,11 @@ This repository contains [Moby Pronunciation List (files)](https://www.gutenberg
 ## Format
 
  * two columns space-separated: word/phrase and pronunciation
- * phonems separated with slash "/"
+ * vowel phonems enclosed in slashes "/"
+    - note: also several consonants like: /T/, /D/, /S/, /Z/, /tS/, /dZ/, /hw/, /j/ and /N/.
+ * multi-word phrases use underscore "\_" instead of space.
+ * compound words in phonemic transcription column use underscore instead of dash. See example: _excess-profits_tax_.
+    - note: this is not always followed throughout the whole dictionary.
 
 
 ```
@@ -229,4 +233,5 @@ field, followed by one or more of the following part-of-speech abbreviations, fo
 
 -----
 
+Last updated: 2025-12-06
 
